@@ -7,6 +7,9 @@
   box-sizing: border-box;
 }
 
+html{
+  scroll-behavior: smooth;
+}
 p,
 h1,
 h2,
@@ -28,7 +31,7 @@ h3 {
 
 .section-1 {
   height: 100vh;
-  background-image: url(Images/Back-1.JPEG);
+  background-image: url(../Images/Back-1.JPEG);
   background-attachment: fixed;
   background-size: cover;
 }
@@ -39,7 +42,7 @@ h3 {
 }
 
 .section-3 {
-  background-image: url(Images/Back-3.JPEG);
+  background-image: url(../Images/Back-3.JPEG);
   background-attachment: fixed;
   background-size: cover;
   height: 100%;
