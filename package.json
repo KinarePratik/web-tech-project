@@ -2,5 +2,12 @@
   "dependencies": {
     "express": "^4.17.1",
     "mongoose": "^6.0.13"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "16.13.0",
+    "npm": "8.1.0"
   }
 }
